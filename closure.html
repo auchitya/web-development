@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Closure</title>
+	<script type="text/javascript">
+		function addnum(first,second){
+			function add()
+			{
+				return "Addition is: "+(first+second);
+			}
+			return add();
+		}
+		var a=addnum(5,10);
+		document.write(a);
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
